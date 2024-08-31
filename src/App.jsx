@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Navbar from './Navbar';
-import Loader from './Loader';
-import Footer from './Footer';
+import Navbar from './components/Navbar';
+import Loader from './components/Loader';
+import Footer from './components/Footer';
 
 const App = () => {
   const [apiData, setApiData] = useState(null);
